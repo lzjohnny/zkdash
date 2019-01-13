@@ -23,6 +23,7 @@ from conf import log
 from conf.settings import (
     LOG_ITEMS,
     OPTIONS,
+    WEB_SITE,
 )
 
 
@@ -37,10 +38,11 @@ class Application(tornado.web.Application):
             'static_path': os.path.join(os.path.dirname(__file__), "static"),
             'template_path': os.path.join(os.path.dirname(__file__), "tpl"),
             'xsrf_cookies': True,
-            'cookie_secret': 'tokyo',
+            'cookie_secret': WEB_SITE['cookie_secret'],
             'site_title': 'zkdash',
             'ui_modules': uimodule,
             'ui_methods': uimethods,
+            'login_url': WEB_SITE['login_url'],
             'debug': OPTIONS.debug,
         }
         tornado.web.Application.__init__(self, routes, **settings)

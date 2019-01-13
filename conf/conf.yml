@@ -35,3 +35,8 @@ LOG_ITEMS:
     backup_count: 30
     backup_suffix: '%Y%m%d'
     level: 'DEBUG'
+
+# cookie_secret
+WEB_SITE:
+ cookie_secret: _GENERATE_YOUR_OWN_RANDOM_VALUE_HERE_
+ login_url: /login

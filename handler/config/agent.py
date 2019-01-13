@@ -13,7 +13,7 @@ import urllib
 import operator
 import json
 from difflib import Differ
-from tornado.web import authenticated
+from handler.bases.common_base import authenticated
 from peewee import OperationalError
 from kazoo.exceptions import NoNodeError
 

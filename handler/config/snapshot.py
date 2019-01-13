@@ -10,7 +10,7 @@ All rights reserved.
 创建日期: 2015-06-16
 """
 import json
-from tornado.web import authenticated
+from handler.bases.common_base import authenticated
 
 from handler.bases import CommonBaseHandler
 from handler.bases import ArgsMap

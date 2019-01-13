@@ -10,6 +10,7 @@ All rights reserved.
 创建日期: 2015-10-09
 """
 from handler.bases import CommonBaseHandler
+from handler.bases.common_base import authenticated
 from lib import route
 
 
@@ -19,6 +20,7 @@ class IndexHandler(CommonBaseHandler):
     '''配置管理系统页面入口
     '''
 
+    @authenticated
     def response(self):
         return self.render('index.html')
 

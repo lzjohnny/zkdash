@@ -13,7 +13,7 @@ import os
 import hashlib
 
 import json
-from tornado.web import authenticated
+from handler.bases.common_base import authenticated
 from kazoo.exceptions import NotEmptyError, BadArgumentsError
 
 from handler.bases import CommonBaseHandler

@@ -12,7 +12,7 @@ All rights reserved.
 import urllib
 import operator
 import json
-from tornado.web import authenticated
+from handler.bases.common_base import authenticated
 from peewee import OperationalError
 
 from handler.bases import CommonBaseHandler

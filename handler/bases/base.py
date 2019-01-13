@@ -59,7 +59,7 @@ class BaseHandler(RequestHandler):
     def get_current_user(self):
         '''获取当前用户
         '''
-        return "tokyo"
+        return self.get_secure_cookie("user_id")
 
     def prepare(self):
         '''get/post前处理函数
