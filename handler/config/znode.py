@@ -9,7 +9,6 @@ All rights reserved.
 创 建 者: zhuangshixiong
 创建日期: 2015-06-16
 """
-import os
 import hashlib
 
 import json
@@ -24,7 +23,7 @@ from model.db.zd_znode import ZdZnode
 from model.db.zd_zookeeper import ZdZookeeper
 from model.db.zd_qconf_feedback import ZdQconfFeedback
 from service import zookeeper as ZookeeperService
-from service import znode as ZnodeService
+from service.zookeeper import znode as ZnodeService
 from conf.settings import USE_QCONF
 
 

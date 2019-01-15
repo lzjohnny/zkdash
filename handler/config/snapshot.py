@@ -18,8 +18,8 @@ from lib import route
 from lib.utils import normalize_path
 from model.db.zd_zookeeper import ZdZookeeper
 from model.db.zd_snapshot import ZdSnapshot
-from service import snapshot as SnapshotService
-from service.snapshot import MakeSnapshotError
+from service.zookeeper import snapshot as SnapshotService
+from service.zookeeper.snapshot import MakeSnapshotError
 from conf import log
 
 
