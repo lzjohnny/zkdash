@@ -23,7 +23,7 @@ from lib import route
 from lib.excel import ExcelWorkBook
 from model.db.zd_qconf_agent import ZdQconfAgent
 from model.db.zd_zookeeper import ZdZookeeper
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from conf import log
 
 

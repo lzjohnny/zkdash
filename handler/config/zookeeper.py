@@ -20,7 +20,7 @@ from handler.bases import ArgsMap
 from lib import route
 from lib.excel import ExcelWorkBook
 from model.db.zd_zookeeper import ZdZookeeper
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from conf import log
 
 

@@ -10,7 +10,7 @@ from handler.bases import ApiBaseHandler
 from handler.bases import ArgsMap
 from service.account.authenticated import api_authenticated
 from service.zookeeper import znode as ZnodeService
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from lib import route
 
 

@@ -15,7 +15,7 @@ from kazoo.exceptions import NoNodeError
 from lib.utils import normalize_path
 from model.db.zd_znode import ZdZnode
 from model.db.zd_snapshot import ZdSnapshot
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from service.zookeeper import snapshot as SnapshotService
 from service.zookeeper.snapshot import MakeSnapshotError
 from conf import log

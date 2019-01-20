@@ -16,7 +16,7 @@ from datetime import datetime
 from kazoo.exceptions import NoNodeError
 from model.db.zd_snapshot import ZdSnapshot
 from model.db.zd_snapshot_tree import ZdSnapshotTree
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from conf import log
 
 

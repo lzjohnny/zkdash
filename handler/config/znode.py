@@ -22,7 +22,7 @@ from lib.utils import normalize_path
 from model.db.zd_znode import ZdZnode
 from model.db.zd_zookeeper import ZdZookeeper
 from model.db.zd_qconf_feedback import ZdQconfFeedback
-from service import zookeeper as ZookeeperService
+from service.zookeeper import zookeeper as ZookeeperService
 from service.zookeeper import znode as ZnodeService
 from conf.settings import USE_QCONF
 
